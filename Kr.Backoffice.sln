@@ -5,8 +5,6 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kr.Backoffice.Api", "Kr.Backoffice.Api\Kr.Backoffice.Api.csproj", "{5B00CBF9-FE6A-4E68-AD11-A439D4DC1348}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kr.Backoffice.Adapter", "Kr.Backoffice.Adapter\Kr.Backoffice.Adapter.csproj", "{3018E24A-A6FE-478A-9A3D-782BA2D7ECE2}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kr.Backoffice.Domain", "Kr.Backoffice.Domain\Kr.Backoffice.Domain.csproj", "{DB5E1CC0-473C-4911-9E86-81A512C6E0B4}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kr.Backoffice.Application", "Kr.Backoffice.Application\Kr.Backoffice.Application.csproj", "{DA7CBB20-6212-4279-9B05-B7A772380F3D}"
@@ -16,6 +14,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kr.Backoffice.UnitTests", "Tests\Kr.Backoffice.UnitTests\Kr.Backoffice.UnitTests.csproj", "{797D51F8-9E5F-45EC-B5BE-20FA9710874A}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kr.Backoffice.Persistence", "Kr.Backoffice.Persistence\Kr.Backoffice.Persistence.csproj", "{2D07BA0B-D4FC-421A-A016-70190F233FFB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kr.Backoffice.Eventing", "Kr.Backoffice.Eventing\Kr.Backoffice.Eventing.csproj", "{19887F9A-1275-434A-B5EA-620E859A4741}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,10 +27,6 @@ Global
 		{5B00CBF9-FE6A-4E68-AD11-A439D4DC1348}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5B00CBF9-FE6A-4E68-AD11-A439D4DC1348}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5B00CBF9-FE6A-4E68-AD11-A439D4DC1348}.Release|Any CPU.Build.0 = Release|Any CPU
-		{3018E24A-A6FE-478A-9A3D-782BA2D7ECE2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{3018E24A-A6FE-478A-9A3D-782BA2D7ECE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{3018E24A-A6FE-478A-9A3D-782BA2D7ECE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{3018E24A-A6FE-478A-9A3D-782BA2D7ECE2}.Release|Any CPU.Build.0 = Release|Any CPU
 		{DB5E1CC0-473C-4911-9E86-81A512C6E0B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{DB5E1CC0-473C-4911-9E86-81A512C6E0B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DB5E1CC0-473C-4911-9E86-81A512C6E0B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -47,6 +43,10 @@ Global
 		{2D07BA0B-D4FC-421A-A016-70190F233FFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2D07BA0B-D4FC-421A-A016-70190F233FFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2D07BA0B-D4FC-421A-A016-70190F233FFB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19887F9A-1275-434A-B5EA-620E859A4741}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19887F9A-1275-434A-B5EA-620E859A4741}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19887F9A-1275-434A-B5EA-620E859A4741}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19887F9A-1275-434A-B5EA-620E859A4741}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

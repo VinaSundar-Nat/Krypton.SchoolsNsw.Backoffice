@@ -13,9 +13,12 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="../Kr.Backoffice.Adapter/Kr.Backoffice.Adapter.csproj" />
     <ProjectReference Include="../Kr.Backoffice.Application/Kr.Backoffice.Application.csproj" />
     <ProjectReference Include="../Kr.Backoffice.Domain/Kr.Backoffice.Domain.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Infra/Endpoints/User/" />
   </ItemGroup>
 
 </Project>

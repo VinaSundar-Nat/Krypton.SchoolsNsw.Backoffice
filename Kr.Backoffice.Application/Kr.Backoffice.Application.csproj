@@ -7,8 +7,15 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="../Kr.Backoffice.Adapter/Kr.Backoffice.Adapter.csproj" />
     <ProjectReference Include="../Kr.Backoffice.Domain/Kr.Backoffice.Domain.csproj" />
+    <ProjectReference Include="../Kr.Backoffice.Persistence/Kr.Backoffice.Persistence.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Feature/School/Command/" />
+    <Folder Include="Feature/User/Command/" />
+    <Folder Include="Feature/User/Command/School/" />
+    <Folder Include="Feature/User/Command/User/" />
   </ItemGroup>
 
 </Project>

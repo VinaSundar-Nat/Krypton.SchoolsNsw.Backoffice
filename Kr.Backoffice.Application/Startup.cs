@@ -1,6 +1,9 @@
-using Kr.Backoffice.Adapter;
-using Kr.Backoffice.Application.Feature.Sample;
-using Kr.Backoffice.Domain.Ports;
+using Kr.Backoffice.Application.Feature.User.Query;
+using Kr.Backoffice.Application.Feature.School.Query;
+using Kr.Backoffice.Domain.Dto;
+using Kr.Backoffice.Domain.Dto.School;
+using Kr.Backoffice.Domain.Dto.User;
+using Kr.Backoffice.Domain.Models.Handler;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 
@@ -10,8 +13,7 @@ public static class Startup
 {
      public static void RegisterFeatures(this IServiceCollection services, IConfiguration configuration)
     {
-        services.RegisterServices(configuration);
-        services.AddScoped<ISampleFeature, SampleFeature>();
+        services.AddScoped<IRequestHandler<SchoolQuery, SchoolDto>, SchoolQueryHandler>();
+        services.AddScoped<IRequestHandler<UserQuery, UserDto>, UserQueryHandler>();
     }
-
 }

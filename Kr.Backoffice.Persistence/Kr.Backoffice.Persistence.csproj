@@ -12,5 +12,12 @@
     <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL.NetTopologySuite" />
     <PackageReference Include="Krypton.Common" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="../Kr.Backoffice.Domain/Kr.Backoffice.Domain.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Core/Common/" />
+    <Folder Include="Core/Common/ValueObject/" />
+  </ItemGroup>
 
 </Project>
